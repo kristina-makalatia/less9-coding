@@ -1,0 +1,59 @@
+
+/* practice#1 - direction */
+/* @media (max-width:1024px) {
+    .flex-wraper {
+        flex-direction: column;
+        row-gap: 50px;
+        align-items: center;
+    }
+} */
+
+
+/* practice#2 = flex-wrap */
+/* @media (max-width: 1024px) {
+    .flex-wraper {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .flex-wraper {
+        justify-content: center;
+    }
+} */
+
+
+/* practice#3 - % and practice figma */
+
+@media (max-width: 1024px) {
+    .box {
+        width: 45%;
+    }
+    .flex-wraper {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 834px) {
+    .wraper {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .right-block {
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        width: 100%;
+    }
+    .right-block-child:last-child {
+        display: none;
+    }
+}
+@media (max-width: 375px) {
+    .box {
+        width: 100%;
+    }
+    .right-block-child:nth-child(2) {
+        display: none;
+    }
+}
